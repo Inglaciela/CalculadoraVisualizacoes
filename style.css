@@ -1,0 +1,130 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Permanent Marker', cursive
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+input, label {
+  display: block;
+  outline: none;
+  width: 100%;
+}
+  
+body {
+  background-image: url('./img/christian-wiediger-ZYLmudR28SA-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 25px;
+}
+#main-container h1 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+  
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+  
+.full-box {
+  flex: 1 1 100%;
+  position: relative;
+}
+  
+label {
+  font-size: .9rem;
+  font-family: 'Abril Fatface', cursive;
+}
+input {
+  border-bottom: 2px solid #323232;
+  font-family: 'Kalam', cursive;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
+
+input:focus {
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+}
+input[type="button"] {
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+  color: rgb(34, 30, 30);
+  font-family: 'Permanent Marker', cursive;
+  border: none;
+  padding: 1px;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#btn {
+  position: relative;
+  left: 6rem;
+  background-color: #E60084;
+  color: rgb(16, 241, 222);
+  border: none;
+  padding: -1px;
+  border-radius: 20px;
+  font-family: 'Permanent Marker', cursive;
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+}
+#btn1 {
+  position: relative;
+  left: 3rem;
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+  color: rgb(7, 6, 6);
+  border: none;
+  padding: 9px;
+  border-radius: 20px;
+  font-family: 'Abril Fatface', cursive;
+  width: 350px;
+  height: 32px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+#btn2 {
+  background-color: #E60084;
+  color: rgb(37, 34, 34);
+  border: none;
+  padding: 17px;
+  border-radius: 20px;
+  font-family: 'Permanent Marker', cursive;
+  width: 450px;
+  height: 134px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculadora de Visualizações</title>
+
+  <!-----LINKS----->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Balsamiq+Sans&family=Kalam:wght@300&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+  <div id="main-container">
+    <h1>Calculadora de Alcance de Anúncio online</h1>
+    <form id="register-form" action="">
+      <form id="register-form" action="">
+        <div class="full-box">
+          <label for="nome">Anúncio</label>
+          <input type="text" name="nome" id="anúncio" placeholder="Digite o nome do anúncio!" data-min-length="2">
+        </div>
+      <div class="full-box">
+        <label for="anuncio">Investimento por Dia</label>
+        <input type="number" name="nome" id="valor" placeholder="Digite um valor igual a R$1.00 OU MAIOR!"  data-required>
+      </div>
+      <div class="full-box">
+        <input id="btn-submit" type="button" value="Calcular" onclick="somar()">
+      </div>
+      <div id="btn"></div>
+      <div id="btn1"></div>
+      <div id="btn2"></div>
+    </form>
+  </div>
+</header>
+ 
+  <!--LINK JS-->
+  <script src="./script.js"></script> 
+</body>
+</html>
